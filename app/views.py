@@ -32,3 +32,5 @@ def url_redirect(short):
         db.session.add(url)
         db.session.commit()
         return redirect(url.original_url)
+    else:
+        pass
